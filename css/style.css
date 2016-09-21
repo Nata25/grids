@@ -1,0 +1,18 @@
+body {font: 18px Verdana sans-serif;}
+
+.grid {
+  display: grid;
+
+  /*свойство для колонок*/
+  grid-template-columns: 100px 1fr 100px;
+}
+
+.grid-item1 {
+  background: #ffcccc;
+}
+.grid-item2 {
+  background: #ccffcc;
+}
+.grid-item3 {
+  background: #ccccff;
+}
