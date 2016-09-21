@@ -4,15 +4,22 @@ body {font: 18px Verdana sans-serif;}
   display: grid;
 
   /*свойство для колонок*/
-  grid-template-columns: 100px 1fr 100px;
+  grid-template-columns: 2fr 4fr 5fr;
 }
 
-.grid-item1 {
-  background: #ffcccc;
+.grid,
+.grid-item {
+    border: 5px solid black;
 }
-.grid-item2 {
-  background: #ccffcc;
+
+.grid-item {
+    height: 100px;
 }
-.grid-item3 {
-  background: #ccccff;
+
+.white {
+  background: #fff;
+}
+
+.yellow {
+  background: #ff0;
 }
