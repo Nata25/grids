@@ -6,7 +6,6 @@ body {font: 18px Verdana sans-serif;}
   grid-template-rows: [start] 50px [red-start] 150px 150px [red-end] 60px [blue-start] 60px 40px [blue-end end] 40px;
 }
 
-.grid,
 .grid > div {
     border: 5px solid black;
 }
