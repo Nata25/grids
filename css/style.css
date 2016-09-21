@@ -2,18 +2,13 @@ body {font: 18px Verdana sans-serif;}
 
 .grid {
   display: grid;
-
-  /*свойство для колонок*/
-  grid-template-columns: 2fr 4fr 5fr;
+  grid-template-columns: [first] 200px [second] 1fr [center] 1fr [last];
+  grid-template-rows: [first] 100px [center] 200px [last];
 }
 
 .grid,
 .grid-item {
     border: 5px solid black;
-}
-
-.grid-item {
-    height: 100px;
 }
 
 .white {
@@ -22,4 +17,8 @@ body {font: 18px Verdana sans-serif;}
 
 .yellow {
   background: #ff0;
+}
+
+.red {
+    background: #f00;
 }
